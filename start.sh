@@ -6,7 +6,7 @@ else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Vid-1
 fi
-cd /Ultra-Renamer-and-Watermark
+cd /Vid-1
 pip3 install -U -r requirements.txt
 echo "βΣTΔ BOT IS STARTING⚡️⚡️"
 python3 -m bot
